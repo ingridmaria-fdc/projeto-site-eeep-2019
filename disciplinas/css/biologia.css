@@ -1,0 +1,40 @@
+h1{
+font-family: "times new roman";
+text-align:center;
+font-size:50px;
+background:#006400;
+}
+h2{
+font-size:25px;
+text-align:center;
+padding:20px;
+}
+div{
+width:1200px;
+display:block;
+margin: 0 auto;
+}
+img{
+float:left;
+margin-right: 90px;
+}
+.biologia{
+height:225px
+
+
+}
+.lia{
+height:220px;
+}
+
+p{
+font-size:23px;
+font-family:"times new roman";
+
+}
+.plantinha{
+float:initial;
+display:block;
+margin: 0 auto;
+height:210px;
+}

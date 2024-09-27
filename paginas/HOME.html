@@ -1,0 +1,152 @@
+<html><head>
+  <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+ <title>EEEP DCCR</title>
+ <link rel="stylesheet" type="text/css" href="../css/header.css">
+ <link href="../css/Estilo_Slide_Fotos.css" rel="stylesheet" type="text/css" media="all" />
+<body>  
+<--header-->
+  	<header>
+	  	<div id="superior">
+  			<a href="Home.html"><img src= "../img/logo1.png" align="center" style="display: block; margin: 0 auto;"></a>
+    	</div>
+  		<div id="inferior">
+    		<input type="checkbox" id="bt_menu">
+ 			<label for="bt_menu">☰</label>
+			
+			<nav class="menu">
+  				<ul>
+   					<li><a href="historia-escola.html"><strong>História</strong></a></li>
+    				<li><a href=""><strong>Cursos</strong></a>
+    					<ul>
+    						<li>
+    							<a href="informatica.html">
+    								<strong>Informática</strong>
+    							</a>
+    						</li>
+    						<li>
+    							<a href="contabilidade.html">
+    								<strong>Contabilidade</strong>
+    							</a>
+    						</li>
+    						<li>
+    							<a href="design.html">
+    								<strong>Design</strong>
+    							</a>
+    						</li>
+    						<li>
+    							<a href="adm.html">
+    								<strong>Administração</strong>
+    							</a>
+    						</li>
+    					</ul>
+    				</li>
+					<li><a href=""><strong>Disciplinas</strong></a>
+                <ul>
+                    <li><a href="biologia.html"><strong>Biologia</strong></a></li>
+                    <li><a href="matematica.html"><strong>Matemática</strong></a></li>
+                    <li><a href="química.html"><strong>Química</strong></a></li>
+                    <li><a href="Física.html"><strong>Física</strong></a></li>
+                    <li><a href="historia.html"><strong>História</strong></a></li>
+                    <li><a href="geografia.html"><strong>Geografia</strong></a></li>
+                    <li><a href="sociologia.html"><strong>Sociologia</strong></a></li>
+                    <li><a href="filosofia.html"><strong>Filosofia</strong></a></li>
+                    <li><a href="port.html"><strong>Português</strong></a></li>
+                    <li><a href="espanhol.html"><strong>Espanhol</strong></a></li>
+                    <li><a href="ing.html"><strong>Inglês</strong></a></li>
+                    <li><a href="Edfis.html"><strong>Ed. Fisica</strong></a></li>
+                </ul>
+                </li>
+	     			<li><a href="projetos.html"><strong>Eventos</strong></a></li>
+				   	<li><a href="Fotos_Galeria_Lightbox.html"><strong>Galeria</strong></a></li>
+				   	<li><a href="downloads.html"><strong>Download</strong></a></li>
+				   	<li><a href="parcerias.html"><strong>Parcerias</strong></a></li>
+
+ 		</div>
+ 	</header>
+	
+
+    <div class="div1"><h2></h2>
+    
+    </div>
+ 
+
+ 
+<div id="imges">
+
+<br>
+<br>
+<img id="imgs" src="../fotos/Alunos/1.jpg" />
+<img id="imgs" src="fotos/Alunos/2.JPG" />
+<img id="imgs" src="fotos/Alunos/3.JPG" />
+<img id="imgs" src="fotos/Alunos/4.JPG" />
+<img id="imgs" src="fotos/Alunos/5.JPG" />
+<img id="imgs" src="fotos/Alunos/6.png" />
+<img id="imgs" src="fotos/Alunos/7.JPG" />
+<img id="imgs" src="fotos/Alunos/8.JPG" />
+<img id="imgs" src="fotos/Alunos/9.PnG" />
+<img id="imgs" src="fotos/Alunos/10.PnG" />
+<img id="imgs" src="fotos/Alunos/11.JPG" />
+<img id="imgs" src="fotos/Alunos/12.JPG" />
+
+</div>
+<script>
+var interval = 2 * 20;//Seconds between change
+
+var images = document.querySelectorAll("img#imgs");
+var imageArray = [];
+var imageCount = images.length;
+var current = 0;
+
+var randomize = function(){
+	return (Math.round(Math.random() * 3 - 1.5));
+}
+for(var i = 0; i < imageCount; i++){
+	images[i].className = 'fade-out';
+	imageArray[i] = images[i];
+}
+imageArray.sort(randomize);
+
+var fade = function(){
+	
+	imageArray[current++].className = 'fade-out';
+	if(current == imageCount){
+		current = 0;
+		imageArray.sort(randomize);
+	}
+	imageArray[current].className = 'fade-in';
+	
+	setTimeout(fade, interval * 100);
+};
+fade();
+</script>
+	
+	
+	
+	
+	
+	
+	
+  
+  <HR  SIZE = 20 COLOR=#FF4500 noshade style="margin-top: 40px;"> 
+
+	<footer>
+		<div>
+		<p>
+		<strong>Endereço:</strong><br></br>
+			Av. Sargento Hermínio Sampaio, 2006 - Monte Castelo, Fortaleza - CE, 63475-084<br>
+			Telefone: (85) 3101-2265 <br>
+			Email: ccarmo@escola.ce.gov.br
+		</p>
+		<p class="Desenvolvedoras">
+			<strong>Desenvolvedoras:</strong><br></br>
+			Adrielle Sousa Cruz<br>
+			Ingrid Maria Ferreira da Costa<br>
+			Mariana Karine Mariano Rocha<br>
+			Marília Gabrine Rocha da Silva
+		</p>
+		</div>
+	</footer>
+
+
+</body>
+</html>

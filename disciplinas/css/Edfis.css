@@ -1,0 +1,79 @@
+
+
+h1 {
+font-family: "Times New Roman";
+text-align: Center;
+font-size: 30px;
+background:#006400;
+padding: 10px;
+}
+
+h2 {
+font-size: 30px;
+text-align: center;
+}
+
+div {
+width: 1200px;
+display: block;
+margin: 0 auto;
+}
+
+.Edfis {
+margin-right: 80px;
+float: left;
+height: 220px;
+}
+.eduardo {
+height: 220px;
+}
+p {
+font-size: 20px;
+font-family: "Times new roman";
+}
+
+dt {
+font-size: 20px;
+text-align: left;
+}
+
+body{
+	margin:0px;
+}
+
+img {
+margin-right: 80px;
+float: left;
+height: 150px;
+}
+
+ul {
+font-size: 20px;
+}
+
+footer{
+	width:100%;
+	min-height: 150px;
+	background: #006400;
+	margin-top: 40px;
+	padding:1px 0px; 
+}
+footer p{
+	margin:0px;
+	color:#fff;
+	display: inline-block;
+	vertical-align: top;
+}
+.Desenvolvedoras{
+	margin-left: 30px;
+}
+.educação{
+float:initial;
+display:block;
+margin: 0 auto;
+height:250px;
+}
+
+
+
+

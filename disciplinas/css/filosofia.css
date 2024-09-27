@@ -1,0 +1,42 @@
+h1{
+font-family: "times new roman";
+text-align:center;
+font-size:50px;
+background:#006400;
+}
+h2{
+font-size:25px;
+text-align:center;
+padding:20px;
+}
+div{
+width:1200px;
+display:block;
+margin: 0 auto;
+}
+img{
+float:left;
+margin-right: 90px;
+}
+.filosofia{
+height:190px
+}
+.filo{
+float:initial;
+display:block;
+margin: 0 auto;
+height:240px;
+width:310px;
+}
+.iseuda{
+height:220px;
+
+}
+p{
+font-size:20px;
+font-family:"times new roman";
+
+}
+dt{
+font-size:20px;
+}

@@ -1,0 +1,16 @@
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 300px;
+
+.nav a, .nav a:active, .nav a:hover, .nav a:visited
+
+border-radius:6px
+padding: 0 15px 0px;
+color: #FFFFFF
+text-decoration: none;

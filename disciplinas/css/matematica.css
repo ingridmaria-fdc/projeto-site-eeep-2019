@@ -1,0 +1,53 @@
+h1{
+font-family: "times new roman";
+text-align:center;
+font-size:50px;
+background:#006400;
+}
+h2{
+font-size:25px;
+text-align:center;
+padding:20px;
+}
+div{
+width:1200px;
+display:block;
+margin: 0 auto;
+}
+img{
+float:left;
+margin-right: 90px;
+}
+.matemática{
+height:200px
+
+}
+.professores{
+	height: 210px;
+}
+.professores p{
+display:inline-block;
+vertical-align:top;
+margin-left:50px;
+}
+.cedna{
+height:210px;
+display:inline-block;
+}
+p{
+font-size:20px;
+font-family:"times new roman";
+
+}
+dt{
+font-size:20px;
+}
+.matema{
+float:initial;
+display:block;
+margin: 0 auto;
+height:210px;
+}
+.gleuber{
+height:210px;
+}
